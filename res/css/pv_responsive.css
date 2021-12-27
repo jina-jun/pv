@@ -1553,6 +1553,9 @@
 }
 
 @media screen and (max-width: 600px) {
+  #inquiry .container_section {
+    padding: 140px 32px;
+  }
   .wrap_table:last-child .profits-small br {
     display: block;
   }
@@ -1855,9 +1858,6 @@
   #inquiry .section_logo-hs {
     height: 44px;
   }
-  #inquiry .container_section {
-    padding: 200px 24px;
-  }
   .inquiry_ann br {
     display: none;
   }
@@ -1910,6 +1910,9 @@
 }
 
 @media screen and (max-width: 480px) {
+  #inquiry .container_section {
+    padding: 120px 24px;
+  }
   .btns_suggest_link a {
     font-size: 24px;
     padding: 16px 20px 12px 24px
@@ -2357,6 +2360,9 @@
 }
 
 @media screen and (max-width: 380px) {
+  #inquiry .container_section {
+    padding: 100px 24px;
+  }
   .suggest_effect_content {
     font-size: 32px;
     line-height: 2.4rem;
