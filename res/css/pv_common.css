@@ -735,12 +735,11 @@ section {
 
 /* s: QnA 1 */
 .qna {
-  margin-bottom: 160px;
   position: relative;
   display: flex;
 }
-.qna:last-child {
-  margin-bottom: 0;
+.qna:not(:first-child) {
+  padding-top: 200px;
 }
 .qna > div:first-child {
   font-size: var(--font-small);

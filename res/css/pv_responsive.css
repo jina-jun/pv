@@ -1173,6 +1173,9 @@
     margin-bottom: 16px;
     padding: 6px 12px;
   }
+  .qna:not(:first-child) {
+    padding-top: 120px;
+  }
 }
 @media screen and (max-width: 720px) {
   .factory_suggest-2 .wrap_suggest_links-title {
@@ -2493,6 +2496,9 @@
 }
 
 @media screen and (max-width: 360px) {
+  .qna:not(:first-child) {
+    padding-top: 100px;
+  }
   .suggest_img div p {
     font-size: 24px;
   }
