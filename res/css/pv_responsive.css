@@ -1097,6 +1097,9 @@
 }
 
 @media screen and (max-width: 800px) {
+  #inquiry .container_section {
+    padding: 160px 24px;
+  }
   .factory_suggest-2 .wrap_suggest_links-title {
     font-size: 56px;
   }
